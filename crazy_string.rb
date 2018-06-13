@@ -9,5 +9,5 @@ def crazy_strings(a,b)
    a.reverse.upcase = gets
    b.gsub('s', 'z') = gets
 
-    puts "#{a}.reverse.upcase" + "#{b}.gsub("s", "z")"
+    puts "#{a}"+ "#{b}"
 end
