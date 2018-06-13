@@ -6,8 +6,7 @@ def crazy_strings(a,b)
   #
   #  puts "#{a}.reverse.upcase" + "#{b}.gsub("s", "z")"
 
-   a.reverse.upcase
-   b.gsub('s', 'z')
+   a.reverse.upcase + b.gsub('s', 'z')
 
     # puts "#{a}"+ "#{b}"
 end
